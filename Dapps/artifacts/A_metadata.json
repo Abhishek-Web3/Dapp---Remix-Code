@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dapps/ethstore.sol": "A"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 250
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dapps/ethstore.sol": {
+			"keccak256": "0x6b39b9aa0c76659ea7f481764eb246dd6b74c67e93bafe429549ed788784c6f5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://15936c0e6ed879b8d8854c3d952b597720a0020b5338d07490e411bf60ed77e2",
+				"dweb:/ipfs/QmNvh8i7pWhFQWpRw2BXPAd6rHPrfdSRkRUMJ1bZYJVkrZ"
+			]
+		}
+	},
+	"version": 1
+}
